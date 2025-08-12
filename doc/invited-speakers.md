@@ -1,2 +1,0 @@
-# Invited Speakers
-
