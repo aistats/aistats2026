@@ -2,7 +2,7 @@
 title: Artificial Intelligence and Statistics Conference
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS 20XX conference.
-baseurl: "/aistats20XX" # the subpath of your site, e.g. /blog/
+baseurl: "/aistats2026" # the subpath of your site, e.g. /blog/
 
 # If you want to create a twitter account for your conference include
 # twitter name here
@@ -13,7 +13,7 @@ github_username:  aistats
 author:
   name: AISTATS
   # YOu might want to create an email for handling conference queries, e.g. aistats20XX@gmail.com. If you do, you can enter it here.
-  email: 
+  email: aistats2026@gmail.com
 comments: false
 
 # Build settings
@@ -29,7 +29,7 @@ style: aistats
 
 ghub:
   edit: true
-  repository: aistats20XX
+  repository: aistats2026
 
 
 # Place a banner image in assets/images and give its name here.
@@ -56,16 +56,18 @@ conference:
   # Give the url of the venue here.  
   venue_url:
   # Give the conference location in the form City, Country here.
-  location: 
-  year: 20XX
+  location: Morocco
+  year: 2026
   # Give the instance of the conference here (e.g. 24th)
-  instance:
+  instance: 29th
   # Styling for AISTATS is "International Conference"  
   styling: International Conference on
   # Give the individual days that the conference will be held on here.
   dates:
-  - 20XX
-  -
+  - 2025-05-02
+  - 2025-05-03
+  - 2025-05-04
+  - 2025-05-05  
   # Give the submission site details here.
   submission:
     # Whether to show the submission site.
