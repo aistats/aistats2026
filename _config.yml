@@ -35,7 +35,8 @@ ghub:
 
 
 # Place a banner image in assets/images and give its name here.
-banner: resort.png 
+banner: tangier.jpg 
+banner_title: Artificial Intelligence and Statistics 2026
 
 conference:
   full_name: Artificial Intelligence and Statistics
