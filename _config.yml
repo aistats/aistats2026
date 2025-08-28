@@ -100,56 +100,62 @@ conference:
       date:
   # List program chairs here.      
   chairs:
+  - type: General Chairs
+    people:
+    - family: Li
+      given: Yingzhen
+      url: http://yingzhenli.net/
+      institute: Imperial College London
+    - family: Khan
+      given: Emtiyaz
+      url: https://emtiyaz.github.io/
+      institute: RIKEN
   - type: Program Chairs
     people:
-    - family: 
-      given:
-      # Give their personal web page.  
-      url: 
-      institute: 
-    - family: 
-      given: 
-      url: 
-      institute:
-  # If there's a local chair, or a general chair, you can add them here.
-  - type: Local Chair
-    people:
-    - family: 
-      given: 
-      url: 
-      institute:
+    - family: Solin
+      given: Arno
+      url: https://arno.solin.fi
+      institute: Aalto University
+    - family: Ramdas
+      given: Aaditya
+      url: https://www.stat.cmu.edu/~aramdas
+      institute: Carnegie Mellon University
   # You might want Workflow Chair(s) to assist with your submission system and the review process.     
   - type: Workflow Chairs
     people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  # Your Publication Chair handles processing of proceedings.      
-  - type: Publication Chair
+    - family: Choe 
+      given: Yo Joong
+      url: https://yjchoe.github.io/
+      institute: INSEAD
+    - family: Verma 
+      given: Prakhar
+      url: https://prakharverma.github.io/
+      institute: Aalto University
+  - type: Workshop Chairs
     people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  # Publicity Chairs often handle websites, social media etc.      
-  - type: Publicity Chair
-    people:
-    - family: 
-      given: 
-      url: 
-      institute:
+    - family: Vernade
+      given: Claire
+      url: https://www.cvernade.com/
+      institute: University of Tübingen
+    - family: Berthet
+      given: Quentin
+      url: https://q-berthet.github.io/
+      institute: Google DeepMind
   # D&I Chairs look after initiatives to ensure an inclusive conference      
-  - type: D&I Chair
+  - type: Inclusivity Chair
     people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  # Sponsorship chairs handle bringing in money from sponsors.      
-  - type: Sponsorship Chair
+    - family: Agrawal
+      given: Shubhada
+      url: https://sites.google.com/view/shubhada-agrawal/home
+      institute: Indian Institute of Science, Bangalore
+  # Journal-to-Conference Chairs      
+  - type: Journal-to-Conference Chair
     people:
-    - family: 
-      given: 
-      url: 
-      institute: 
+    - family: Daudel
+      given: Kamélia 
+      url: https://kdaudel.github.io/
+      institute: ESSEC Business School
+    - family: Alquier
+      given: Pierre
+      url: https://pierrealquier.github.io/
+      institute: ESSEC Business School
