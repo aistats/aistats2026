@@ -147,7 +147,7 @@ conference:
     - family: Agrawal
       given: Shubhada
       url: https://sites.google.com/view/shubhada-agrawal/home
-      institute: Indian Institute of Science, Bangalore
+      institute: Indian Institute of Science, Bangalore      
   # Journal-to-Conference Chairs      
   - type: Journal-to-Conference Chair
     people:
@@ -159,3 +159,36 @@ conference:
       given: Pierre
       url: https://pierrealquier.github.io/
       institute: ESSEC Business School
+  # Sponsorship
+  - type: Sponsorship Chairs
+    people:
+    - family: Fortuin
+      given: Vincent
+      url: https://fortuin.github.io/
+      institute: Helmholtz AI & TU Munich
+    - family: Kristiadi
+      given: Agustinus
+      url: https://agustinus.kristia.de/
+      institute: Western University & Vector Institute
+  # Local Chairs
+  - type: Local Chairs
+    people:
+    - family: BEN TAIEB
+      given: Souhaib
+      url: https://souhaib-bentaieb.com/
+      institute: 
+    - family: Harrasse
+      given: Abir
+      url: https://abirharrasse.github.io/
+      institute: Martian Learning Inc.
+    - family: Lahlou
+      given: Salem
+      url: https://lahlou.org/
+      institute: MBZUAI
+  # Publication Chair
+  - type: Publication Chair
+    people:
+    - family: Trapp
+      given: Martin
+      url: https://trappmartin.github.io/
+      institute: KTH Royal Institute of Technology
