@@ -6,8 +6,6 @@ weight: 5
 
 # Invited Speakers
 
-Keynotes from [virtual.aistats.org](https://virtual.aistats.org/virtual/2026/eventlistwithbios/Invited%20Talk).
-
 <h2 id="eric-xing"><a href="https://www.cs.cmu.edu/~epxing/">Eric Xing (MBZUAI; Carnegie Mellon University)</a></h2>
 <img alt="Eric Xing" align="left" width="150" src="assets/images/eric_xing.jpg">
 <b>Talk</b>: Keynote, 2 May 2026, 9:00–10:00 (Main Ballroom)<br>
