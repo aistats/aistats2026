@@ -1,19 +1,20 @@
 ---
 title: Poster Instructions
 layout: default
-weight: 4
 ---
 
-## Poster Instructions
+## Poster Information
 
-### Size requirements
+------------------------------------------------------------------------
 
-All posters must meet:
+##### Poster Size Requirements
 
-* **Orientation:** Landscape (horizontal)
-* **Maximum dimensions:** 2.4 m × 1.2 m (7.87 ft × 3.94 ft)
-* **Mounting:** Adhesive and/or pins; hanging materials provided onsite. Boards are wood.
+All posters must meet the following specifications:
 
-Please ensure your poster does not exceed the maximum size.
+- **Orientation:** Landscape (horizontal)
 
-Canonical page: [Poster Information](https://virtual.aistats.org/FAQ/PostersInstructions).
+- **Maximum dimensions:** 2.4 m x 1.2 m (7.87 ft. x 3.94 ft.)
+
+  ![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)**Mounting materials:** Adhesive and or pins hanging materials will be provided onsite.  The Boards are made of wood.
+
+Please ensure your poster does not exceed the maximum size listed above.

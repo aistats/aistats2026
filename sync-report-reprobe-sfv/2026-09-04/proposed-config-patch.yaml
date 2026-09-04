@@ -1,0 +1,53 @@
+conference:
+  venue: Hilton Tangier Al Houara Resort & Spa
+  location: Tangier, Morocco
+  dates_raw: Conference Sessions Workshops Fri May 2nd through Mon May 5th Mon May
+    5th
+  deadlines:
+    Registration deadline:
+      date: Jan 20 '26 08:00 AM UTC
+      source_name: Registration Opens
+      enddate: Apr 07 '26 (Anywhere on Earth)
+      source_name_end: Early pricing before this date.
+    Conference dates:
+      date: May 02 '26 09:00 AM CEST
+      source_name: Main Conference Begins
+    Abstract submission deadline:
+      date: Sep 25 '25 (Anywhere on Earth)
+      source_name: Abstract Submission Deadline
+    Paper submission deadline:
+      date: Oct 02 '25 (Anywhere on Earth)
+      source_name: Full Paper Submission Deadline
+    Author response period:
+      date: Dec 01 '25 12:00 PM UTC
+      source_name: Author Reviewer Discussion Period Begins
+      enddate: Dec 08 '25 (Anywhere on Earth)
+      source_name_end: Author Reviewer Discussion Period Ends
+    Paper decision notifications:
+      date: Jan 22 '26 (Anywhere on Earth)
+      source_name: Paper Decision Notifications
+    Camera-ready deadline:
+      date: Mar 31 '26 (Anywhere on Earth)
+      source_name: Camera Ready Version Deadline
+    Workshop submission deadline:
+      date: Oct 17 '25 (Anywhere on Earth)
+      source_name: Workshop Submission Deadline
+    Journal-to-Conference track deadline:
+      date: Jan 31 '26 (Anywhere on Earth)
+      source_name: Journal to Conference Submission Deadline
+source_urls:
+- https://virtual.aistats.org/Conferences/2026/Dates
+- https://virtual.aistats.org/Conferences/2026/Hotels
+notes:
+- 'Unmapped dates row: Conference Sessions Workshops → Fri May 2nd through Mon May
+  5th Mon May 5th'
+- 'Unmapped dates row: Financial Aid Application Deadline → Mar 19 ''26 (Anywhere
+  on Earth)'
+- 'Unmapped dates row: Financial Aid Notifications → Mar 26 ''26 (Anywhere on Earth)'
+- 'Unmapped dates row: Sponsor Insurance Certificate Deadline → Apr 18 ''26 03:00
+  AM CEST'
+- 'Unmapped dates row: Cancellation Deadline → Apr 19 ''26 (Anywhere on Earth)'
+- 'Unmapped dates row: Supplemental Material Submission Deadline → Oct 09 ''25 (Anywhere
+  on Earth)'
+- 'Unmapped dates row: Review Period Begins → Oct 14 ''25 12:00 PM UTC'
+- 'Unmapped dates row: Review Period Ends → Nov 10 ''25 (Anywhere on Earth)'

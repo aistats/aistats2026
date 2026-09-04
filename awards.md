@@ -1,70 +1,30 @@
 ---
 title: Awards
 layout: default
-weight: 8
 ---
 
-## Best Paper
+### EventFlow: Forecasting Temporal Point Processes with Flow Matching
 
-AISTATS features a _Best Paper Award_ to recognize an exceptional paper.
-The AISTATS 2026 Best Paper Award goes to
+### [EventFlow: Forecasting Temporal Point Processes with Flow Matching](/virtual/2026/award/13628)
 
-**Gavin Kerrigan**,
-**Kai Nelson**, and
-**Padhraic Smyth**
+Gavin Kerrigan ⋅ Kai Nelson ⋅ Padhraic Smyth
 
-for their paper
+<span class="eyebrow-text">Abstract</span>
 
-[EventFlow: Forecasting Temporal Point Processes with Flow Matching](https://virtual.aistats.org/virtual/2026/award/13628).
+Continuous-time event sequences, in which events occur at irregular intervals, are ubiquitous across a wide range of industrial and scientific domains. The contemporary modeling paradigm is to treat such data as realizations of a temporal point process, and in machine learning it is common to model temporal point processes in an autoregressive fashion using a neural network. While autoregressive models are successful in predicting the time of a single subsequent event, their performance can degrade when forecasting longer horizons due to cascading errors and myopic predictions. We propose EventFlow, a non-autoregressive generative model for temporal point processes. The model builds on the flow matching framework in order to directly learn joint distributions over event times, side-stepping the autoregressive process. EventFlow is simple to implement and achieves a 20\\-53\\ lower forecast error than the nearest baseline on standard TPP benchmarks while simultaneously using fewer model calls at sampling time.
 
-Congratulations!
+### [We Still Don’t Understand High-Dimensional Bayesian Optimization](/virtual/2026/award/13739)
 
+Colin Doumont ⋅ Donney Fan ⋅ Natalie Maus ⋅ Jacob Gardner ⋅ Henry Moss ⋅ Geoff Pleiss
 
-## Best Student Paper
+<span class="eyebrow-text">Abstract</span>
 
-AISTATS features a _Best Student Paper Award_ to recognize an exceptional paper written by students.
-The AISTATS 2026 Best Student Paper Award goes to
+Existing high-dimensional Bayesian optimization (BO) methods aim to overcome the curse of dimensionality by carefully encoding structural assumptions, from locality to sparsity to smoothness, into the optimization procedure. Surprisingly, we demonstrate that these approaches are outperformed by arguably the simplest method imaginable: Bayesian linear regression. After applying a geometric transformation to avoid boundary-seeking behavior, Gaussian processes with linear kernels match state-of-the-art performance on tasks with 60- to 6,000-dimensional search spaces. Linear models offer numerous advantages over their non-parametric counterparts: they afford closed-form sampling and their computation scales linearly with data, a fact we exploit on molecular optimization tasks with \>20,000 observations. Coupled with empirical analyses, our results suggest the need to depart from past intuitions about BO methods in high-dimensions.
 
-**Colin Doumont**,
-**Donney Fan**,
-**Natalie Maus**,
-**Jacob Gardner**,
-**Henry Moss**, and
-**Geoff Pleiss**
+### [Non-stochastic Best Arm Identification and Hyperparameter Optimization](/virtual/2026/award/14090)
 
-for their paper
+Kevin Jamieson ⋅ Ameet Talwalkar
 
-[We Still Don’t Understand High-Dimensional Bayesian Optimization](https://virtual.aistats.org/virtual/2026/award/13739).
+<span class="eyebrow-text">Abstract</span>
 
-Congratulations!
-
-
-## Test of Time Award
-
-AISTATS features a _Test of Time Award_ to recognize a paper from
-10 years ago that has had a prominent impact in the field.
-The AISTATS 2026 Test of Time Award goes to
-
-**Kevin Jamieson** and
-**Ameet Talwalkar**
-
-for their paper
-
-[Non-stochastic Best Arm Identification and Hyperparameter Optimization](https://proceedings.mlr.press/v51/jamieson16.html)
-
-(AISTATS 2016).
-
-### Test of Time Award, Honorable Mention
-
-**Andrew Gordon Wilson**,
-**Zhiting Hu**,
-**Ruslan Salakhutdinov**, and
-**Eric P. Xing**
-
-for
-
-[Deep Kernel Learning](https://proceedings.mlr.press/v51/wilson16.html)
-
-(AISTATS 2016).
-
-Award talks were scheduled in a separate session on Sunday (Day 2), 11:30–12:30 local time. See also the [virtual awards list](https://virtual.aistats.org/virtual/2026/eventlistwithbios/Award).
+Motivated by the task of hyperparameter optimization, we introduce the \em non-stochastic best-arm identification problem. We identify an attractive algorithm for this setting that makes no assumptions on the convergence behavior of the arms’ losses, has no free-parameters to adjust, provably outperforms the uniform allocation baseline in favorable conditions, and performs comparably (up to \log factors) otherwise. Next, by leveraging the iterative nature of many learning algorithms, we cast hyperparameter optimization as an instance of non-stochastic best-arm identification. Our empirical results show that, by allocating more resources to promising hyperparameter settings, our approach achieves comparable test accuracies an order of magnitude faster than the uniform strategy. The robustness and simplicity of our approach makes it well-suited to ultimately replace the uniform strategy currently used in most machine learning software packages.

@@ -1,16 +1,29 @@
 ---
-title: Program Schedule
+title: Schedule
 layout: default
-weight: 2
 ---
 
-## Program Schedule
+# Schedule
 
-Main conference sessions ran **Friday May 2 through Monday May 5, 2026**, with workshops on **Monday May 5**.
+### AISTATS 2026 Meeting Dates
 
-* [Interactive calendar](https://virtual.aistats.org/virtual/2026/calendar)
-* [Invited talks]({{ "invited.html" | relative_url }})
-* [Workshops]({{ "workshops.html" | relative_url }})
-* [Awards]({{ "awards.html" | relative_url }})
+<table class="table">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<th><p>Conference Sessions</p>
+<p>Workshops</p></th>
+<td><p>Fri May 2nd through Mon May 5th</p>
+<p>Mon May 5th</p></td>
+</tr>
+</tbody>
+</table>
 
-For session-level detail, use the virtual calendar rather than this archive page.
+|     |                                                  |                                                    |     |     |
+|-----|--------------------------------------------------|----------------------------------------------------|-----|-----|
+|     | <span class="gray">Main Conference Begins</span> | <span class="gray">May 02 '26 09:00 AM CEST</span> |     |     |
+
+Full interactive calendar: https://virtual.aistats.org/virtual/2026/calendar
