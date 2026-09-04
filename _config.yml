@@ -7,6 +7,10 @@ baseurl: "/aistats2026/" # the subpath of your site, e.g. /blog/
 
 repository: aistats/aistats2026
 
+# Deadline display timezone for listdates.html (AOE = Anywhere on Earth, end of day).
+# Override per deadline with tz: UTC (or CEST, …). Do not embed AoE in date strings.
+timezone: AOE
+
 # If you want to create a twitter account for your conference include
 # twitter name here
 twitter_username:
@@ -81,8 +85,8 @@ conference:
     # The name of the submission site (e.g. Microsoft CMT Website)
     name: OpenReview
   # Key dates shown via {% include listdates.html %}.
-  # Store parseable date/enddate/time values only — AoE is stated by the include,
-  # not embedded in these strings. Clock times may use time: or text: for noon notes.
+  # Store parseable date/enddate/time values only. Site timezone: AOE (see top-level
+  # timezone). Per-deadline override: tz: UTC (etc.). Do not embed AoE in strings.
   deadlines:
     - name: Abstract submission deadline
       type: submission
@@ -109,8 +113,8 @@ conference:
       enddate: 10 November 2025
     - name: Reviews released to authors
       type: submission
-      date: 21 November 2025
-      text: 21 November 2025 (noon)
+      time: 2025-11-21T12:00:00Z
+      tz: UTC
     - name: Author rebuttal period
       type: review
       date: 22 November 2025
