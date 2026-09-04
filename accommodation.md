@@ -10,4 +10,4 @@ layout: default
 The conference dates are
 **{{ site.conference.dates.first | date: "%B %-d" }}–{{ site.conference.dates.last | date: "%B %-d, %Y" }}**.
 
-Room-block and booking notes for organisers belong on this page (or in `_doc/`). Link `conference.venue_url` in `_config.yml` to the hotel or booking page when you have one; do not treat virtual.aistats.org as the default accommodation source.
+Add room-block and booking details here as they are confirmed. Set `conference.venue_url` in `_config.yml` when there is a hotel or booking link to publish.
