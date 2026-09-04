@@ -15,4 +15,4 @@ Registration and payment are handled on the [virtual conference site](https://vi
 {% if site.conference.location %} in {{ site.conference.location }}{% endif %}
 {% if site.conference.venue %} at {{ site.conference.venue }}{% endif %}.
 
-See [Key Dates]({{ "dates.html" | relative_url }}) for registration-related deadlines from `_config.yml`.
+See [Key Dates]({{ "dates.html" | relative_url }}) for registration-related deadlines.

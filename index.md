@@ -13,7 +13,17 @@ AISTATS is an interdisciplinary gathering of researchers from computer science, 
 
 # Awards
 
-Congratulations to the [AISTATS 2026 award winners]({{ "awards.html" | relative_url }}): Best Paper (EventFlow), Best Student Paper (high-dimensional Bayesian optimization), and Test of Time (Jamieson & Talwalkar), with honorable mention for Deep Kernel Learning.
+Congratulations to the paper award winners for AISTATS 2026! See the [awards page]({{ "awards.html" | relative_url }}) for details.
+
+Best Paper Award: “EventFlow: Forecasting Temporal Point Processes with Flow Matching” by Gavin Kerrigan, Kai Nelson, and Padhraic Smyth
+
+Best Student Paper Award: “We Still Don’t Understand High-Dimensional Bayesian Optimization” by Colin Doumont, Donney Fan, Natalie Maus, Jacob Gardner, Henry Moss, and Geoff Pleiss
+
+Test of Time Award: “Non-stochastic Best Arm Identification and Hyperparameter Optimization” by Kevin Jamieson and Ameet Talwalkar
+
+The above award talks will happen in a separate session on Sunday (Day 2), 11:30-12:30 local time.
+
+Test of Time Award, Honorable Mention: “Deep Kernel Learning” by Andrew Gordon Wilson, Zhiting Hu, Ruslan Salakhutdinov, and Eric P. Xing
 
 # Invited Speakers
 
