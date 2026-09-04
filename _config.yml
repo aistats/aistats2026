@@ -80,11 +80,13 @@ conference:
     url: "https://openreview.net/group?id=aistats.org/AISTATS/2026/Conference"
     # The name of the submission site (e.g. Microsoft CMT Website)
     name: OpenReview
-  # Key dates from virtual.aistats.org (Dates + Reviewer Guidelines).
+  # Key dates shown via {% include listdates.html %}.
+  # Store parseable date/enddate/time values only — AoE is stated by the include,
+  # not embedded in these strings. Clock times may use time: or text: for noon notes.
   deadlines:
     - name: Abstract submission deadline
       type: submission
-      date: Sep 25 '25 (Anywhere on Earth)
+      date: 25 September 2025
       important: true
     - name: Bidding phase
       type: review
@@ -92,7 +94,7 @@ conference:
       enddate: 6 October 2025
     - name: Paper submission deadline
       type: submission
-      date: Oct 02 '25 (Anywhere on Earth)
+      date: 2 October 2025
       important: true
     - name: Supplementary material deadline
       type: submission
@@ -100,7 +102,7 @@ conference:
       important: true
     - name: Workshop submission deadline
       type: submission
-      date: Oct 17 '25 (Anywhere on Earth)
+      date: 17 October 2025
     - name: Review period
       type: review
       date: 14 October 2025
@@ -111,13 +113,13 @@ conference:
       text: 21 November 2025 (noon)
     - name: Author rebuttal period
       type: review
-      date: Dec 01 '25 12:00 PM UTC
-      enddate: Dec 08 '25 (Anywhere on Earth)
+      date: 22 November 2025
+      enddate: 8 December 2025
       important: true
     - name: Author-reviewer discussion period
       type: review
-      date: Dec 01 '25 12:00 PM UTC
-      enddate: Dec 08 '25 (Anywhere on Earth)
+      date: 1 December 2025
+      enddate: 8 December 2025
       important: true
     - name: Reviewer-AC discussion period
       type: review
@@ -128,26 +130,26 @@ conference:
       date: 15 December 2025
     - name: Paper decision notifications
       type: decision
-      date: Jan 22 '26 (Anywhere on Earth)
+      date: 22 January 2026
       important: true
     - name: Registration opens
       type: submission
       date: 20 January 2026
     - name: Journal-to-Conference track deadline
       type: submission
-      date: Jan 31 '26 (Anywhere on Earth)
+      date: 31 January 2026
       important: true
     - name: Financial aid application deadline
       date: 19 March 2026
     - name: Camera-ready deadline
       type: submission
-      date: Mar 31 '26 (Anywhere on Earth)
+      date: 31 March 2026
       important: true
     - name: Early registration pricing ends
       date: 7 April 2026
     - name: Conference dates
       type: submission
-      date: May 02 '26 09:00 AM CEST
+      date: 2 May 2026
       enddate: 5 May 2026
       important: true
   # List program chairs here.

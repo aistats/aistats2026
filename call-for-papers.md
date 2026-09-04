@@ -5,19 +5,17 @@ weight: 2
 hide: false
 ---
 
-# Call for Papers: AISTATS 2026
+# Call for Papers: {{ site.conference.short_name }} {{ site.conference.year }}
 
-We invite submissions to the **29th International Conference on Artificial Intelligence and Statistics** (AISTATS 2026) and welcome paper submissions at the intersection of artificial intelligence, machine learning, statistics, and related areas. Accepted papers will be presented at the conference to be held in person in Morocco on May 2–5, 2026. At least one author of each accepted paper should register and present the work at the conference. Exceptions may be granted in case of travel emergencies or visa issues.
+We invite submissions to the **{{ site.conference.instance }} {{ site.conference.styling }} {{ site.conference.full_name }}** ({{ site.conference.short_name }} {{ site.conference.year }}) and welcome paper submissions at the intersection of artificial intelligence, machine learning, statistics, and related areas. Accepted papers will be presented at the conference to be held in person in {{ site.conference.location }} from {{ site.conference.dates.first | date: "%B %-d" }}–{{ site.conference.dates.last | date: "%B %-d, %Y" }}. At least one author of each accepted paper should register and present the work at the conference. Exceptions may be granted in case of travel emergencies or visa issues.
 
 AISTATS is an interdisciplinary gathering of researchers from computer science, artificial intelligence, machine learning, statistics, and related areas. Since its inception in 1985, the primary goal of AISTATS has been to broaden research in these fields by promoting the exchange of ideas among them. The conference is committed to diversity in all its forms and encourages submissions from authors of underrepresented groups and geographies in ML/AI.
 
-### Key Dates
+## Key dates
 
-- **Abstract submission deadline:** September 25, 2025 AOE
-- **Full paper submission deadline:** October 2, 2025 AOE
-- **Supplementary material deadline:** October 9, 2025 AOE
+{% include listdates.html %}
 
-### Paper Submission (Proceedings Track)
+## Paper Submission (Proceedings Track)
 
 The proceedings track is the standard AISTATS paper submission track. This year, there will be a separate journal track for papers that have been recently published at select top journals to present those works at AISTATS as a poster; the details of this track will be posted separately.
 

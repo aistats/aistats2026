@@ -9,29 +9,16 @@ This page provides guidelines for reviewers for AISTATS. It references previous 
 
 ## Responsibilities of a Reviewer
 
-1.  Report problematic papers to the Area Chair (e.g., unacceptable formatting issues, dual submissions, plagiarism, etc.); see [this FAQ](/Conferences/2026/ACGuidelines#frequently-asked-questions) for a list of possible issues.
+1.  Report problematic papers to the Area Chair (e.g., unacceptable formatting issues, dual submissions, plagiarism, etc.); see [this FAQ]({{ "ac_guidelines.html#frequently-asked-questions" | relative_url }}) for a list of possible issues.
 2.  Submit high-quality reviews.
 3.  During the rebuttal period, discuss with the other reviewers and the AC to help arrive at a good decision.
 4.  Recommend papers for oral talks, awards, etc.
 
 ## Important Dates
 
-Dates may be subject to change. All dates are Anywhere on Earth (AoE; UTC-12), end of day, unless specified otherwise.
+{% include listdates.html %}
 
-- ~~Abstract submission deadline: September 25, 2025~~
-- ~~Bidding phase: September 29, 2025 - October 6, 2025~~
-- ~~Paper submission deadline: October 2, 2025~~
-- ~~Supplementary material submission deadline: October 9, 2025~~
-- ~~Review period: October 14, 2025 - November 10, 2025 *\[Reviews Due\]*~~
-- ~~Reviews released to authors: November 21 (noon), 2025~~
-- ~~Author rebuttal period: November 21 (noon), 2025 - November 30, 2025~~
-- ~~Author-reviewer discussion period: December 1, 2025 - December 8, 2025~~
-- ~~Reviewer-AC discussion period: December 9, 2025 - December 15, 2025~~
-- ~~AC meta reviews: December 15, 2025~~
-- **Paper final decision notifications: January 22, 2026**
-- Conference dates: May 2, 2026 - May 5, 2026
-
-*Update September 16, 2025: *Please note the changes in dates for the bidding phase, review period, and discussion periods.
+*Update September 16, 2025:* Please note the changes in dates for the bidding phase, review period, and discussion periods.
 
 *Update October 14, 2025:* Review period start date has changed (from October 11 to 14).
 

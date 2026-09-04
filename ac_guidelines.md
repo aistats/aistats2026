@@ -20,27 +20,9 @@ This page provides guidelines for Area Chairs (ACs) for AISTATS 2026. It referen
 
 ## Important Dates
 
-Dates may be subject to change. All dates are Anywhere on Earth (AoE; UTC-12), end of day, unless specified otherwise.
+{% include listdates.html %}
 
-- ~~Abstract submission deadline: September 25, 2025~~
-- ~~Bidding phase: September 29, 2025 - October 6, 2025~~
-- ~~Paper submission deadline: October 2, 2025~~
-- ~~Supplementary material submission deadline: October 9, 2025~~
-- ~~Paper-reviewer initial assignments: October 11, 2025~~
-- ~~Review period: October 14, 2025 - November 10, 2025~~
-- ~~Checking and soliciting emergency reviews: November 11, 2025 - November 20, 2025~~
-- ~~Reviews released to authors: November 21 (noon), 2025~~
-- ~~Author rebuttal period: November 21 (noon), 2025 - November 30, 2025~~
-- ~~Author-reviewer discussion period: December 1, 2025 - December 8, 2025~~
-- ~~Reviewer-AC discussion period: December 9, 2025 - December 15, 2025~~
-- ~~AC meta reviews: December 15, 2025~~
-- ~~AC-SAC discussion period: December 16, 2025 - December 22, 2025~~
-- ~~SAC initial decisions: January 6, 2026~~
-- **Paper final decision notifications: January 22, 2026**
-- Journal-to-conference track submission due: January 31, 2026
-- Conference dates: May 2, 2026 - May 5, 2026
-
-*Update September 16, 2025: *Please note the changes in dates for the bidding, review, and discussion periods.
+*Update September 16, 2025:* Please note the changes in dates for the bidding, review, and discussion periods.
 
 *Update October 14, 2025:* Review period start date has changed (from October 11 to 14).
 

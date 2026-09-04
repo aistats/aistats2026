@@ -1,29 +1,18 @@
 ---
 title: Schedule
 layout: default
+weight: 2
 ---
 
 # Schedule
 
-### AISTATS 2026 Meeting Dates
+{{ site.conference.short_name }} {{ site.conference.year }} main sessions run
+{{ site.conference.dates.first | date: "%A, %B %-d" }} through
+{{ site.conference.dates.last | date: "%A, %B %-d, %Y" }}
+{% if site.conference.location %} in {{ site.conference.location }}{% endif %}.
 
-<table class="table">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<th><p>Conference Sessions</p>
-<p>Workshops</p></th>
-<td><p>Fri May 2nd through Mon May 5th</p>
-<p>Mon May 5th</p></td>
-</tr>
-</tbody>
-</table>
+The detailed interactive calendar stays on the virtual site:
 
-|     |                                                  |                                                    |     |     |
-|-----|--------------------------------------------------|----------------------------------------------------|-----|-----|
-|     | <span class="gray">Main Conference Begins</span> | <span class="gray">May 02 '26 09:00 AM CEST</span> |     |     |
+[https://virtual.aistats.org/virtual/2026/calendar](https://virtual.aistats.org/virtual/2026/calendar)
 
-Full interactive calendar: https://virtual.aistats.org/virtual/2026/calendar
+High-level programme notes may be added here once fixed; do not mirror the full virtual calendar into markdown.

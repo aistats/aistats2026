@@ -9,7 +9,7 @@ Please take some time to read these instructions **in full**. For your camera-re
 
 ## TL;DR
 
-- The camera-ready deadline is **Tuesday, March 31st, 2026, Anywhere on Earth (AoE)**.
+- The camera-ready deadline is listed under [Key Dates]({{ "dates.html" | relative_url }}) (Anywhere on Earth unless that page says otherwise).
 - Submit your camera-ready version on OpenReview: **from your paper page, click on the “Edit” button and then select "Camera Ready Revision".**
 - You must upload:
   - One PDF file with the **de-anonymized paper** (mandatory)

@@ -4,7 +4,10 @@ layout: default
 weight: 1
 ---
 
-The 29th International Conference on Artificial Intelligence and Statistics (AISTATS) was held on May 2nd – May 5th, 2026 at the [Hilton Tangier Al Houara Resort & Spa]({{ "accommodation.html" | relative_url }}) in Tangier, Morocco, as an in-person event.
+The {{ site.conference.instance }} {{ site.conference.styling }} {{ site.conference.full_name }} ({{ site.conference.short_name }}) will be held
+{{ site.conference.dates.first | date: "%B %-d" }}–{{ site.conference.dates.last | date: "%B %-d, %Y" }}
+{% if site.conference.venue %} at [{{ site.conference.venue }}]({{ "accommodation.html" | relative_url }}){% endif %}
+{% if site.conference.location %} in {{ site.conference.location }}{% endif %}, as an in-person event.
 
 AISTATS is an interdisciplinary gathering of researchers from computer science, artificial intelligence, machine learning, statistics, and related areas. Since its inception in 1985, the primary goal of AISTATS has been to broaden research in these fields by promoting the exchange of ideas among them.
 

@@ -5,7 +5,7 @@ layout: default
 
 # Visa & Travel Information
 
-The conference will take place in Tangier, Morocco. The information below is provided as general guidance only. Visa requirements depend on nationality, passport type, and length of stay and may change at any time. **Please verify your requirements before traveling.**
+The conference will take place in {{ site.conference.location }}. The information below is provided as general guidance only. Visa requirements depend on nationality, passport type, and length of stay and may change at any time. **Please verify your requirements before traveling.**
 
 ## Visa-exempt entry
 
