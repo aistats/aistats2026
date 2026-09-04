@@ -1,0 +1,84 @@
+---
+title: Workshops
+layout: default
+---
+
+# Call for Workshops: AISTATS 2026
+
+AISTATS invites proposals for its inaugural workshop program at the 2026 conference. Workshops will be held on **May 5, 2026**, adjacent to the main conference (the day immediately after the main program on May 2-4).
+
+Workshops are intended as interactive forums to explore emerging questions, open problems, and cross-disciplinary directions. Effective workshops crystallize shared challenges, contrast competing approaches, and help clarify the key questions for a subfield or application area.
+
+Topics should interest a substantial portion of the AISTATS community. Formats should prioritize participation—contributed content, panels, and ample time for posters and discussion—to encourage lively debate and exchange of ideas. We also encourage organizers to assemble inclusive panels and speaker lists; diverse perspectives consistently lead to richer and more surprising insights.
+
+## Timeline
+
+- Submission deadline: **Friday, October 17, 2025 AOE**
+- Decision notification: Mid-December
+- Workshop Day: May 5, 2026
+
+For workshop organizers: (will be refined in the instructions for accepted workshops)
+
+- Suggested Submission Date for Workshop Contributions: Late January
+- Suggested Accept/Reject Notification Date: Early March (so travel plans can be made)
+
+## Submission Format
+
+Submissions will be handled through [OpenReview](https://openreview.net/group?id=aistats.org/AISTATS/2026/Workshop_Track).
+
+Please submit a **3-page** (excluding references) pdf in the AISTATS 2026 paper format, containing
+
+- A short introduction presenting the motivations for the topic of the workshop: why is this a timely and important topic relevant to the AISTATS attendees?
+- Previous iterations at other conferences, or similar recent events (seminars, or small invitation-only workshops)
+
+<!-- -->
+
+- Potential Invited speakers/Panelists: Please include them in a table with their affiliation, gender, role / job title, indicate whether they have been contacted and to which degree they confirmed (yes/tentative/virtual).
+
+<!-- -->
+
+- Tentative schedule: Workshops will tentatively run from 9am-5pm
+
+<!-- -->
+
+- Organizers and biographies: Please highlight their role and reason for inclusion in the organizing team. For the biographies, please stick to **short bios** (no list of awards, no citation numbers or h-index) and main career stage and achievements.
+
+<!-- -->
+
+- Plan to get an audience for a workshop (advertising, reaching out, etc.)
+
+<!-- -->
+
+- Planned submission and notification dates for contributions
+
+<!-- -->
+
+- Diversity commitment: Please state your plans to have a diverse audience
+
+Workshops are intended to foster interaction and discussion among participants, so we strongly encourage in-person attendance. Online presentations are permitted but should be kept to a minimum (please indicate planned ones in your proposal). Please note that AISTATS is unable to provide travel support for workshop speakers.
+
+## General Advice and Evaluation Criteria
+
+Workshop proposals will be evaluated through a **single-blind review process** (reviewers are anonymous, but organizers are known), based on the following criteria and general expectations.
+
+AISTATS workshops are intended to draw broad interest from the community while providing a focused, interactive forum. We aim to select workshops that will attract **approximately 100–200 attendees** and spark meaningful discussion and engagement.
+
+To improve the chances of acceptance, please keep the following in mind:
+
+- **Topical relevance and focus:** Proposals should address a timely and important topic relevant to the AISTATS community. Aim for a theme that is both widely appealing and clearly defined. Broad titles like “AI Safety” are less compelling than focused proposals such as “Uncertainty Representation under Distribution Shifts.” If your topic is likely to attract many similar submissions, make sure your proposal offers a distinctive angle or fresh perspective.
+
+- **Intellectual excitement:** The strongest proposals introduce new questions, perspectives, or cross-disciplinary directions. Avoid rehashing well-worn debates; instead, strive to push the boundaries of the field.
+
+- **Opportunities for discussion:** Workshops should prioritize interaction over formal presentations. Proposals should include plans for poster sessions, panels, breakout discussions, or other formats that encourage engagement among participants.
+
+- **Speakers:** Invite speakers whose work is closely aligned with the workshop theme. Avoid defaulting to “popular” names across proposals. Confirmed or tentatively confirmed speakers are a plus and should be mentioned in the submission. We particularly encourage inviting early-career speakers.
+
+- **Diversity and inclusion:** Proposals should reflect diversity in all its forms—topics, institutions, geography, gender, career stage, and perspectives. Diverse organizing teams and speaker lists are strongly encouraged, as they foster richer and more inclusive discussions.
+
+- **Organizing team and planning:** A smaller, engaged team (typically fewer than 8 organizers) is more effective than a large group with uneven involvement. Each organizer’s role should be clearly defined. Avoid proposals with large advisory panels or organizers involved in multiple similar proposals.
+
+- **Polish and preparedness:** Well-structured, thoughtful proposals that demonstrate strong planning (e.g., tentative speaker confirmations, session structure, contingency plans) are more likely to be accepted and run smoothly.
+
+Finally, even strong proposals may not be accepted due to e.g. overlap between themes. While the above points can improve your proposal’s chances, the process differs from paper reviewing and acceptance is not guaranteed. Please calibrate expectations accordingly.
+
+For questions, please contact the workshop chairs at <aistats2026+workshops@gmail.com>.

@@ -4,8 +4,51 @@ layout: default
 weight: 1
 ---
 
-The 29th International Conference on Artificial Intelligence and Statistics (AISTATS) will be held on May 2nd – May 5th, 2026 in Tangier, Morocco, as an in-person event.
+The {{ site.conference.instance }} {{ site.conference.styling }} {{ site.conference.full_name }} ({{ site.conference.short_name }}) will be held
+{{ site.conference.dates.first | date: "%B %-d" }}–{{ site.conference.dates.last | date: "%B %-d, %Y" }}
+{% if site.conference.venue %} at [{{ site.conference.venue }}]({{ "accommodation.html" | relative_url }}){% endif %}
+{% if site.conference.location %} in {{ site.conference.location }}{% endif %}, as an in-person event.
 
-AISTATS is an interdisciplinary gathering of researchers from computer science, artificial intelligence, machine learning, statistics, and related areas. Since its inception in 1985, the primary goal of AISTATS has been to broaden research in these fields by promoting the exchange of ideas among them. The conference welcomes paper submissions at the intersection of artificial intelligence, machine learning, statistics, and related areas.
+AISTATS is an interdisciplinary gathering of researchers from computer science, artificial intelligence, machine learning, statistics, and related areas. Since its inception in 1985, the primary goal of AISTATS has been to broaden research in these fields by promoting the exchange of ideas among them.
 
-For all up-to-date information, paper submissions, and registration, please visit the site: [virtual.aistats.org](https://virtual.aistats.org/Conferences/2026).
+# Awards
+
+Congratulations to the paper award winners for AISTATS 2026! See the [awards page]({{ "awards.html" | relative_url }}) for details.
+
+Best Paper Award: “EventFlow: Forecasting Temporal Point Processes with Flow Matching” by Gavin Kerrigan, Kai Nelson, and Padhraic Smyth
+
+Best Student Paper Award: “We Still Don’t Understand High-Dimensional Bayesian Optimization” by Colin Doumont, Donney Fan, Natalie Maus, Jacob Gardner, Henry Moss, and Geoff Pleiss
+
+Test of Time Award: “Non-stochastic Best Arm Identification and Hyperparameter Optimization” by Kevin Jamieson and Ameet Talwalkar
+
+The above award talks will happen in a separate session on Sunday (Day 2), 11:30-12:30 local time.
+
+Test of Time Award, Honorable Mention: “Deep Kernel Learning” by Andrew Gordon Wilson, Zhiting Hu, Ruslan Salakhutdinov, and Eric P. Xing
+
+# Invited Speakers
+
+- [Eric Xing]({{ "invited.html#eric-xing" | relative_url }}) (MBZUAI; Carnegie Mellon University)
+- [Emma Brunskill]({{ "invited.html#emma-brunskill" | relative_url }}) (Stanford University)
+- [Taiji Suzuki]({{ "invited.html#taiji-suzuki" | relative_url }}) (The University of Tokyo; RIKEN AIP)
+
+See the [invited speakers page]({{ "invited.html" | relative_url }}) for biographies.
+
+# Programme and logistics
+
+* [Key Dates]({{ "dates.html" | relative_url }})
+* [Schedule]({{ "schedule.html" | relative_url }}) · [Workshops]({{ "workshops.html" | relative_url }})
+* [Registration]({{ "registration.html" | relative_url }}) · [Accommodation]({{ "accommodation.html" | relative_url }}) · [Visa & travel]({{ "visa.html" | relative_url }})
+
+# Calls and author information
+
+* [Call for Papers]({{ "call-for-papers.html" | relative_url }}) · [Journal-to-Conference]({{ "journal-track.html" | relative_url }})
+* [Submission FAQs]({{ "faqs.html" | relative_url }}) · [Camera-ready]({{ "camera.html" | relative_url }}) · [Posters]({{ "poster.html" | relative_url }})
+* [Code of Conduct]({{ "code-of-conduct.html" | relative_url }})
+
+# Organizing Committee
+
+See the full [organizing committee]({{ "committee.html" | relative_url }}).
+
+Interactive papers, calendar, and attendee tools remain on [virtual.aistats.org](https://virtual.aistats.org/Conferences/2026).
+
+{% if site.author.email %}General inquiries should be sent to [{{ site.author.email }}](mailto:{{ site.author.email }}).{% endif %}

@@ -2,19 +2,24 @@
 title: Artificial Intelligence and Statistics Conference
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS 2026 conference.
+url: "https://aistats.org"
 baseurl: "/aistats2026/" # the subpath of your site, e.g. /blog/
 
 repository: aistats/aistats2026
 
+# Deadline display timezone for listdates.html (AOE = Anywhere on Earth, end of day).
+# Override per deadline with tz: UTC (or CEST, …). Do not embed AoE in date strings.
+timezone: AOE
+
 # If you want to create a twitter account for your conference include
 # twitter name here
-twitter_username: 
+twitter_username:
 
-github_username:  aistats
+github_username: aistats
 
 author:
   name: AISTATS
-  # YOu might want to create an email for handling conference queries, e.g. aistats20XX@gmail.com. If you do, you can enter it here.
+  # You might want to create an email for handling conference queries, e.g. aistats20XX@gmail.com. If you do, you can enter it here.
   email: aistats2026@gmail.com
 comments: false
 
@@ -33,9 +38,8 @@ ghub:
   edit: true
   repository: aistats2026
 
-
 # Place a banner image in assets/images and give its name here.
-banner: tangier.jpg 
+banner: tangier.jpg
 banner_title: Artificial Intelligence and Statistics 2026
 
 conference:
@@ -45,60 +49,115 @@ conference:
   # set to True if the programme is draft only.
   draft: true
   # set to True to hide tentative speakers
-  hide_tentative: true 
+  hide_tentative: true
   # Place an image of venue in assets/images and give its name here
-  image: conference-venue.png
+  image: tangier.jpg
   proceedings:
     # When proceedings are published add url here.
-    url:      
+    url:
     show: false
-  # Give details of the room in the venue here.  
+  # Give details of the room in the venue here.
   room:
-  # Set the name of the venue (e.g. Caribe Hilton Hotel)  
-  venue:
-  # Give the url of the venue here.  
-  venue_url:
+  # Set the name of the venue (e.g. Caribe Hilton Hotel)
+  venue: Hilton Tangier Al Houara Resort & Spa
+  # Give the url of the venue here.
+  venue_url: https://virtual.aistats.org/Conferences/2026/Hotels
   # Give the conference location in the form City, Country here.
-  location: Morocco
+  location: Tangier, Morocco
   year: 2026
   # Give the instance of the conference here (e.g. 24th)
   instance: 29th
-  # Styling for AISTATS is "International Conference"  
+  # Styling for AISTATS is "International Conference"
   styling: International Conference on
   # Give the individual days that the conference will be held on here.
+  # Source: https://virtual.aistats.org/Conferences/2026/Dates
   dates:
-  - 2025-05-02
-  - 2025-05-03
-  - 2025-05-04
-  - 2025-05-05  
+  - 2026-05-02
+  - 2026-05-03
+  - 2026-05-04
+  - 2026-05-05
   # Give the submission site details here.
   submission:
     # Whether to show the submission site.
-    show: 
+    show: false
     # The URL of the submission site.
-    url: 
+    url: "https://openreview.net/group?id=aistats.org/AISTATS/2026/Conference"
     # The name of the submission site (e.g. Microsoft CMT Website)
-    name: 
+    name: OpenReview
+  # Key dates shown via {% include listdates.html %}.
+  # Store parseable date/enddate/time values only. Site timezone: AOE (see top-level
+  # timezone). Per-deadline override: tz: UTC (etc.). Do not embed AoE in strings.
   deadlines:
-    # Fill in the key dates as below.
-    - name: Submission server open
+    - name: Abstract submission deadline
       type: submission
-      date: 
+      date: 25 September 2025
+      important: true
+    - name: Bidding phase
+      type: review
+      date: 29 September 2025
+      enddate: 6 October 2025
     - name: Paper submission deadline
       type: submission
-      time: 
-    - name: Author response period starts
-      date: 
-    - name: Author response period ends
-      time:
+      date: 2 October 2025
+      important: true
+    - name: Supplementary material deadline
+      type: submission
+      date: 9 October 2025
+      important: true
+    - name: Workshop submission deadline
+      type: submission
+      date: 17 October 2025
+    - name: Review period
+      type: review
+      date: 14 October 2025
+      enddate: 10 November 2025
+    - name: Reviews released to authors
+      type: submission
+      time: 2025-11-21T12:00:00Z
+      tz: UTC
+    - name: Author rebuttal period
+      type: review
+      date: 22 November 2025
+      enddate: 8 December 2025
+      important: true
+    - name: Author-reviewer discussion period
+      type: review
+      date: 1 December 2025
+      enddate: 8 December 2025
+      important: true
+    - name: Reviewer-AC discussion period
+      type: review
+      date: 9 December 2025
+      enddate: 15 December 2025
+    - name: AC meta reviews
+      type: meta
+      date: 15 December 2025
     - name: Paper decision notifications
-      date: 
       type: decision
-    - name: Deadline for camera-ready papers
-      time: 
-    - name: Registration deadline
-      date:
-  # List program chairs here.      
+      date: 22 January 2026
+      important: true
+    - name: Registration opens
+      type: submission
+      date: 20 January 2026
+    - name: Journal-to-Conference track deadline
+      type: submission
+      date: 31 January 2026
+      important: true
+    - name: Financial aid application deadline
+      date: 19 March 2026
+    - name: Camera-ready deadline
+      type: submission
+      date: 31 March 2026
+      important: true
+    - name: Early registration pricing ends
+      date: 7 April 2026
+    - name: Conference dates
+      type: submission
+      date: 2 May 2026
+      enddate: 5 May 2026
+      important: true
+  # List program chairs here.
+  # Affiliations aligned with https://virtual.aistats.org/Conferences/2026
   chairs:
   - type: General Chairs
     people:
@@ -109,25 +168,24 @@ conference:
     - family: Khan
       given: Emtiyaz
       url: https://emtiyaz.github.io/
-      institute: RIKEN
+      institute: RIKEN Center for AIP
   - type: Program Chairs
     people:
     - family: Solin
       given: Arno
       url: https://arno.solin.fi
-      institute: Aalto University
+      institute: ELLIS Institute Finland / Aalto University
     - family: Ramdas
       given: Aaditya
       url: https://www.stat.cmu.edu/~aramdas
-      institute: Carnegie Mellon University
-  # You might want Workflow Chair(s) to assist with your submission system and the review process.     
+      institute: Stanford University
   - type: Workflow Chairs
     people:
-    - family: Choe 
+    - family: Choe
       given: Yo Joong
       url: https://yjchoe.github.io/
       institute: INSEAD
-    - family: Verma 
+    - family: Verma
       given: Prakhar
       url: https://prakharverma.github.io/
       institute: Aalto University
@@ -136,41 +194,37 @@ conference:
     - family: Vernade
       given: Claire
       url: https://www.cvernade.com/
-      institute: University of Tübingen
+      institute: University of Technology Nuremberg
     - family: Berthet
       given: Quentin
       url: https://q-berthet.github.io/
       institute: Google DeepMind
-  # D&I Chairs look after initiatives to ensure an inclusive conference      
   - type: Inclusivity Chair
     people:
     - family: Agrawal
       given: Shubhada
       url: https://sites.google.com/view/shubhada-agrawal/home
-      institute: Indian Institute of Science, Bangalore      
-  # Journal-to-Conference Chairs      
+      institute: Indian Institute of Science, Bangalore
   - type: Journal-to-Conference Chair
     people:
     - family: Daudel
-      given: Kamélia 
+      given: Kamélia
       url: https://kdaudel.github.io/
       institute: ESSEC Business School
     - family: Alquier
       given: Pierre
       url: https://pierrealquier.github.io/
       institute: ESSEC Business School
-  # Sponsorship
   - type: Sponsorship Chairs
     people:
     - family: Fortuin
       given: Vincent
       url: https://fortuin.github.io/
-      institute: Helmholtz AI & TU Munich
+      institute: TU Nuremberg & Helmholtz AI
     - family: Kristiadi
       given: Agustinus
       url: https://agustinus.kristia.de/
-      institute: Western University & Vector Institute
-  # Local Chairs
+      institute: Western University and Vector Institute
   - type: Local Chairs
     people:
     - family: BEN TAIEB
@@ -185,10 +239,20 @@ conference:
       given: Salem
       url: https://lahlou.org/
       institute: MBZUAI
-  # Publication Chair
   - type: Publication Chair
     people:
     - family: Trapp
       given: Martin
       url: https://trappmartin.github.io/
       institute: KTH Royal Institute of Technology
+  - type: Logistics Chairs
+    people:
+    - family: Perry
+      given: Susan
+      institute: AISTATS
+    - family: Wiesner
+      given: Max
+      institute: AISTATS
+    - family: Perry
+      given: Mary Ellen
+      institute: AISTATS
